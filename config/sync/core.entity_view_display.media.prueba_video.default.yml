@@ -1,0 +1,33 @@
+uuid: bfa8880c-8e69-4d40-bddb-a3c715e8f5c8
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.media.prueba_video.field_media_video_file_1
+    - media.type.prueba_video
+  module:
+    - file
+id: media.prueba_video.default
+targetEntityType: media
+bundle: prueba_video
+mode: default
+content:
+  field_media_video_file_1:
+    type: file_video
+    label: visually_hidden
+    weight: 0
+    settings:
+      muted: false
+      width: 640
+      height: 480
+      controls: true
+      autoplay: false
+      loop: false
+      multiple_file_display_type: tags
+    third_party_settings: {  }
+    region: content
+hidden:
+  created: true
+  name: true
+  thumbnail: true
+  uid: true

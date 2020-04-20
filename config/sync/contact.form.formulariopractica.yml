@@ -1,0 +1,12 @@
+uuid: 14d8a052-e8d5-4f34-ac8e-e5b85f03d21e
+langcode: en
+status: true
+dependencies: {  }
+id: formulariopractica
+label: FormularioPractica
+recipients:
+  - henryhvp96@gmail.com
+reply: ''
+weight: 0
+message: 'El formulario se envio con exito'
+redirect: ''

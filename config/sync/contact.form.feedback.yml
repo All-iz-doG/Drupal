@@ -1,0 +1,14 @@
+uuid: 3c1e50b4-f131-4c2e-af0e-f03e89a64c50
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: vymHlgJy26BuI5GGj9-IXjwR3dRC5C0tij4BpWJnoqw
+id: feedback
+label: 'Website feedback'
+recipients:
+  - henryhvp96@gmail.com
+reply: ''
+weight: 0
+message: 'Your message has been sent.'
+redirect: ''

@@ -1,0 +1,16 @@
+uuid: 356e4f33-14e6-48a1-9f99-9db0072530a1
+langcode: en
+status: true
+dependencies: {  }
+id: video_remoto
+label: 'Video Remoto'
+description: sfe
+source: 'oembed:video'
+queue_thumbnail_downloads: false
+new_revision: false
+source_configuration:
+  thumbnails_directory: 'public://oembed_thumbnails'
+  providers: {  }
+  source_field: field_media_oembed_video_1
+field_map:
+  title: name

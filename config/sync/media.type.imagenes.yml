@@ -1,0 +1,14 @@
+uuid: 60efbb03-5073-469f-8f29-8d7a9a0a9cac
+langcode: en
+status: false
+dependencies: {  }
+id: imagenes
+label: Imagenes
+description: ''
+source: image
+queue_thumbnail_downloads: true
+new_revision: false
+source_configuration:
+  source_field: field_media_image_1
+field_map:
+  name: name

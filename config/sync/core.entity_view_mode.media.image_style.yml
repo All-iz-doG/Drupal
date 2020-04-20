@@ -1,0 +1,10 @@
+uuid: 11717729-e4bc-4435-bc78-6d293905faf7
+langcode: en
+status: true
+dependencies:
+  module:
+    - media
+id: media.image_style
+label: 'image style'
+targetEntityType: media
+cache: true

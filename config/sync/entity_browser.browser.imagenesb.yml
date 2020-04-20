@@ -1,0 +1,31 @@
+uuid: 71003cfc-8eab-4323-9639-7199a6cb138d
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.imagenes_browser
+  module:
+    - views
+name: imagenesb
+label: ImagenesB
+display: modal
+display_configuration:
+  width: '760'
+  height: '420'
+  link_text: 'Select entities'
+  auto_open: true
+selection_display: no_display
+selection_display_configuration: {  }
+widget_selector: tabs
+widget_selector_configuration: {  }
+widgets:
+  aaca472a-6ca3-4e05-a05b-4bc7b721e06a:
+    settings:
+      view: imagenes_browser
+      view_display: entity_browser_1
+      submit_text: 'Select entities'
+      auto_select: false
+    uuid: aaca472a-6ca3-4e05-a05b-4bc7b721e06a
+    weight: 1
+    label: view
+    id: view

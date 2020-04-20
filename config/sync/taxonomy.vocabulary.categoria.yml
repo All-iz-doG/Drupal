@@ -1,0 +1,8 @@
+uuid: fed596ba-4541-4f7d-ab4b-4a1a2f216dd8
+langcode: en
+status: true
+dependencies: {  }
+name: Categoria
+vid: categoria
+description: 'Categoria de un curso'
+weight: 0

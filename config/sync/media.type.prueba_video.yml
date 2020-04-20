@@ -1,0 +1,14 @@
+uuid: ee847f35-6b60-432f-a8d3-f5ff2146e684
+langcode: en
+status: true
+dependencies: {  }
+id: prueba_video
+label: 'Prueba video'
+description: video
+source: video_file
+queue_thumbnail_downloads: true
+new_revision: false
+source_configuration:
+  source_field: field_media_video_file_1
+field_map:
+  name: name

@@ -1,0 +1,7 @@
+uuid: 785cf07a-068d-4311-a9ed-d97ee10e8ff7
+langcode: en
+status: true
+dependencies: {  }
+name: probando_responsive_image
+label: 'Probando Responsive image'
+effects: {  }

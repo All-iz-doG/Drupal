@@ -1,0 +1,14 @@
+uuid: 20a7b441-0373-4d15-8bee-183f47d6a565
+name: Practica
+mail: henryhvp96@gmail.com
+slogan: ''
+page:
+  403: ''
+  404: ''
+  front: /node
+admin_compact_mode: false
+weight_select_max: 100
+langcode: en
+default_langcode: en
+_core:
+  default_config_hash: yTxtFqBHnEWxQswuWvkjE8mKw2t8oKuCL1q8KnfHuGE

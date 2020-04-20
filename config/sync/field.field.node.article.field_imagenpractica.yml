@@ -1,0 +1,28 @@
+uuid: 85843bb1-1dd3-4418-ae2e-bd0ac1e44c6f
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_imagenpractica
+    - media.type.imagenes
+    - node.type.article
+id: node.article.field_imagenpractica
+field_name: field_imagenpractica
+entity_type: node
+bundle: article
+label: ImagenPractica
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:media'
+  handler_settings:
+    target_bundles:
+      imagenes: imagenes
+    sort:
+      field: _none
+    auto_create: true
+    auto_create_bundle: ''
+field_type: entity_reference
